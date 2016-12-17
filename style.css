@@ -4,28 +4,9 @@
     font: bold 18px arial;
 }
 
-.header {
-  justify-content: center;
-  height: 75px;
-  width: 100%;
-  display: flex;
-  align-items: center;
+html, body {
+  background-color: #282727 !important;
 }
-
-.header p {
-  padding: 23px 20px;
-  margin: 0 20px 0px 0px;
-  cursor: pointer;
-}
-
-.header p:hover {
-  background-color: #9bb2c9;
-}
-
-.headerContent {
-  margin-left: 20px;
-}
-
 .box {
   border: 1px solid black;
 }
@@ -33,11 +14,12 @@
 .boxdb {
   border: 1px solid red;
 }
+#loginBlock form {
+  margin-right: 1px
+}
 
 #contBG {
-  background-color: #FAF0E6;
-  width: 100%;
-  min-height: calc(100vh - 75px);
+  margin-top: 20px
 }
 
 #contFront {
