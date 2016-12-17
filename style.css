@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: bold 18px arial;
+}
+
+.header {
+  justify-content: center;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header p {
+  padding: 23px 20px;
+  margin: 0 20px 0px 0px;
+  cursor: pointer;
+}
+
+.header p:hover {
+  background-color: #9bb2c9;
+}
+
+.headerContent {
+  margin-left: 20px;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.boxdb {
+  border: 1px solid red;
+}
+
+#contBG {
+  background-color: #FAF0E6;
+  width: 100%;
+  min-height: calc(100vh - 75px);
+}
+
+#contFront {
+  display: flex;
+  width: 75%;
+  margin: auto;
+}
+
+#content {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+}
+
+.bgTitle {
+  background-color: #9494b8;
+}
